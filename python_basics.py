@@ -122,4 +122,16 @@ elif False:
     print("2")
 else:
     print("3")
+    
+# OPERATORS
+
+print(False or False)
+print(False or True)
+
+print(False and True)
+print(True and True)
+print(False and False)
+
+print(not True)
+print(not False)
 
