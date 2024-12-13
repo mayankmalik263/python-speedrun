@@ -88,7 +88,7 @@ for i in grocery_list:
 print(list(range(5)))
     
 # print(grocery_list[4]) ## this will show that the index is out of range because there's nothing on index value = 4
-# print(grocery_list[1]) ##accessing items with their index values
+# print(grocery_list[1]) ## accessing items with their index values
 
 for i in range(len(grocery_list)):
     print(grocery_list[i])
@@ -135,3 +135,13 @@ print(False and False)
 print(not True)
 print(not False)
 
+age = 20
+
+if age <= 1:
+  print("Newborn")
+elif (age >= 13) and (age <= 19):
+  print("Teen")
+else:
+  print("Not newborn and not teen")
+
+print('end')
