@@ -21,3 +21,9 @@ with open(p, 'r') as f:
 # might take a lot of your time and something even crash your pc.
 # so reading them by this method line-by-line is kind of good for you
 
+with open('new_file.txt','w') as f: # firstly this will create the file and then open it in write mode actually this can be done in write and append mode
+    f.write("Namaste Everyone\n")
+    
+with open('new_file.txt','a') as f: # if you want to append in the last of the file you HAVE to use append!
+    # WHY APPEND? can't we just use write? nope because what write does it truncates means deletes the file and recreates it with the new content
+    f.write("My Name is Mayank Malik B-25 B.Tech CSE at UPES Dehradun")
